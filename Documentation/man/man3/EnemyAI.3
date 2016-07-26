@@ -1,0 +1,96 @@
+.TH "EnemyAI" 3 "Tue Apr 26 2016" "FLASH" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+EnemyAI \- Enemy AI\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static float \fBAngleAroundAxis\fP (Vector3 dirA, Vector3 dirB, Vector3 axis)"
+.br
+.RI "\fIAngles the around axis\&. \fP"
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "Transform \fBtarget\fP"
+.br
+.ti -1c
+.RI "float \fBupdateRate\fP = 60f"
+.br
+.ti -1c
+.RI "Path \fBpath\fP"
+.br
+.ti -1c
+.RI "float \fBspeed\fP = 300f"
+.br
+.ti -1c
+.RI "ForceMode2D \fBfmode\fP"
+.br
+.ti -1c
+.RI "bool \fBpathisEnded\fP = false"
+.br
+.ti -1c
+.RI "float \fBnextWayPointDistance\fP = 100"
+.br
+.ti -1c
+.RI "float \fBrotation_constant\fP = 1f"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Enemy AI\&. 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static float EnemyAI\&.AngleAroundAxis (Vector3 dirA, Vector3 dirB, Vector3 axis)\fC [static]\fP"
+
+.PP
+Angles the around axis\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+The around axis\&.
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIdirA\fP Dir a\&.
+.br
+\fIdirB\fP Dir b\&.
+.br
+\fIaxis\fP Axis\&.
+.RE
+.PP
+
+.SH "Member Data Documentation"
+.PP 
+.SS "ForceMode2D EnemyAI\&.fmode"
+
+.SS "float EnemyAI\&.nextWayPointDistance = 100"
+
+.SS "Path EnemyAI\&.path"
+
+.SS "bool EnemyAI\&.pathisEnded = false"
+
+.SS "float EnemyAI\&.rotation_constant = 1f"
+
+.SS "float EnemyAI\&.speed = 300f"
+
+.SS "Transform EnemyAI\&.target"
+
+.SS "float EnemyAI\&.updateRate = 60f"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for FLASH from the source code\&.
