@@ -59,7 +59,7 @@
 ---
 # Installation 
     
-The project is not complete yet. When it will be finished *.exe or *.app file will be made available.
+  *.exe or *.app file will be  available for game.
 
 ---
 
