@@ -63,11 +63,7 @@ The project is not complete yet. When it will be finished *.exe or *.app file wi
 
 ---
 
-# Members  
-###   -  Darshit Patel           `darshit@iitg.ernet.in`
-###   -  Kuldeep Singh Palawat   `k.palawat@iitg.ernet.in`
-###   -  Sahil Sharma            `sahil.sharma@iitg.ernet.in`
-###   -  Subham Gupta            `subham.@iitg.ernet.in`
+
    
 
 
